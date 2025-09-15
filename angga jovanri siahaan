@@ -1,0 +1,64 @@
+1 bilangan = 10
+2
+3 if (bilangan % 2) == 1;
+4     print("Bil Ganjil")
+5     bilangan = bilangan**2
+6     print(bilangan)
+7
+8 elif (bilangan % 2) == 0:
+9     print("Bil Genap")
+1 nilai = 100
+2
+3 if nilai >= 90:
+4     print("A")
+5 elif nilai >= 80:
+6     print("AB")
+7 elif nilai >= 70:
+8     print("B")
+9 elif nilai >= 60:
+10    print("BC")
+
+1 total_belanja = 110000
+2 pake_kupon = False
+3
+4 if total_belanja >= 100000
+5     if pake_kupon:
+6         diskon = 0.2*total_belanja
+7         print("total diskon adalah {diskon}")
+8         total_bayar = total_belanja-diskon
+9         print("total belanja : ",total_belanja)
+10     else:
+11         print("total belanja : ", total_belanja)
+12 else:
+13     print("belanja kurang dari Rp. 100.000")
+
+1 for i in range(0, 100):
+2     if i % 2 == 0:
+3         print(f"bilangan {i} adalah genap")
+4     elif i % 2 == 1:
+5         print(f"bilangan {i} adalah ganjil")
+6     else:1 username = "Angga"
+2 password = "angga176"
+3
+4 count = 0
+5 while login:
+6     input_username = input("username :")
+7     input_password = input("password :")
+8
+9     count = count + 1
+10
+11    if input_username == username and input_password == password:
+12    print("login berhasil")
+13    break
+14 else:
+15    print("login gagal!, username atau password salah!")
+16
+17    if count == 3:
+18       break
+
+
+
+
+
+7         print(f"bilangan {i} bukan bilangan bulat")
+
